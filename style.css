@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  /*  
+  
   header {
     background-color: #333;
     padding: 20px;
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     color: ghostwhite;
   }
-  
+  /*
   .heading {
     display: flex;
     align-items: center;
