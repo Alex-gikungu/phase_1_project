@@ -1,0 +1,37 @@
+{
+    "houses": [
+      {
+        "id": "1",
+        "name": "Cozy Bungalow",
+        "amount": "$1,200 ",
+        "location": "Kisumu",
+        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Charming Villa ",
+        "amount": "$1,100 ",
+        "location": "Nairobi",
+        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Morden apartment",
+        "amount": "$1,800 ",
+        "location": "Thika",
+        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Cozy Bungalow",
+        "amount": "$1,200 ",
+        "location": "Kisumu",
+        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      }
+      
+    ]
+  }

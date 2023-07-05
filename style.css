@@ -1,0 +1,135 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: ghostwhite;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .house-listings {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .house {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .house img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .house-info h2 {
+    margin-top: 0;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .location {
+    margin-top: 10px;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .heading ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left:150px;
+  }
+  
+  .heading ul li {
+    margin-right: 100px;
+  }
+  
+  button {
+    margin-left: 50px;
+  }
+
+.clients{
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.client2, .client1 ,.client3{
+    margin-left:10%;
+}
+
+h2{
+    text-align: center;
+}
+.client1 img, .client2 img ,.client3 img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  }
+
+.foot{
+margin-right: 70%;
+}
+.foot ul{
+    list-style: none;
+    position: top;
+}
+.foot ul li{
+    padding: 10px;
+}
+.about{
+    margin-bottom:20%;
+}
+.about h1{
+    text-align: center;
+}
+.about img{
+    clear:left;
+    float:left ;
+    height:300px;
+}
+#mission{
+    background-color: #333;
+    height:300px;
+
+}
+
+
+
+
+
+   */
