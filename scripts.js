@@ -17,7 +17,7 @@ fetch("http://localhost:3000/houses")
         newHouse.style.background="#f5f5f5";
       })
 
-      //creating variables using dom
+      //creating elements and divs using dom
       let image = document.createElement("img");
       image.src = houseData.images;
       image.alt = "House Image";
@@ -51,28 +51,28 @@ fetch("http://localhost:3000/houses")
       //appending description to house info
       houseInfo.appendChild(description);
       
-//       let button = document.createElement("button");
-// button.textContent = "Read More";
-// button.style.marginLeft = "35%";
-// button.style.cursor = "pointer";
-// houseInfo.appendChild(button);
-// button.addEventListener("click", () => {
-//   description.style.display = "block";
-// });  
+     let button = document.createElement("button");
+     button.textContent = "Read More";
+     button.style.marginLeft = "35%";
+     button.style.cursor = "pointer";
+     houseInfo.appendChild(button);
+     button.addEventListener("click", () => {
+     description.style.display = "block";
+     });  
 
-// let buttons = document.createElement("button");
-// buttons.textContent = "Delete";
-// buttons.style.marginLeft = "35%";
-// buttons.style.marginTop = "30px";
-// buttons.style.cursor = "pointer";
-// houseInfo.appendChild(buttons);
+     let buttons = document.createElement("button");
+     buttons.textContent = "Delete";
+     buttons.style.marginLeft = "35%";
+     buttons.style.marginTop = "30px";
+     buttons.style.cursor = "pointer";
+     houseInfo.appendChild(buttons);
 
-// buttons.addEventListener("click", () => {
-//   // Display a confirmation alert
-//   if (confirm("Are you sure you want to delete the details?")) {
-//     deleteHouseFromServer(houseData.id);
-//   }
-// });
+     buttons.addEventListener("click", () => {
+  // Display a confirmation alert
+     if (confirm("Are you sure you want to delete the details?")) {
+     deleteHouseFromServer(houseData.id);
+     }  
+  });
 
 // function deleteHouseFromServer(id) {
 //   fetch(`http://localhost:3000/houses/${id}`, {
