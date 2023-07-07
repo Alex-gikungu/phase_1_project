@@ -79,10 +79,7 @@ fetch("http://localhost:3000/houses")
     })
       .then(response => response.json())
       .then(data => {
-  // Handle the server response if needed
       console.log("House deleted:", data);
-
-  // Remove the house element from the DOM
       newHouse.remove();
      }).catch(error => console.log(error));
   }
@@ -92,17 +89,17 @@ fetch("http://localhost:3000/houses")
 
    }).catch(error => console.log(error));
 
-// // Get the "Add Appartment" button element
-// const addButton = document.querySelector('button');
-//       addButton.style.width="150px";
-//       addButton.style.height="30px";
-//       addButton.style.cursor="pointer";
+   // Add Appartment button 
+      const addButton = document.querySelector('button');
+      addButton.style.width="150px";
+      addButton.style.height="30px";
+      addButton.style.cursor="pointer";
 
-// // Add event listener to the button
-// addButton.addEventListener('click', () => {
-//   // Display the container
-//   container.style.display = 'block';
-// });
+// Adding event listener to addappartment button
+      addButton.addEventListener('click', () => {
+// Display the container
+      container.style.display = 'block';
+    });
 
 //   // Get the container element
 // const container = document.querySelector('.container');
