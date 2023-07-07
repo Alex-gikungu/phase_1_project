@@ -34,7 +34,7 @@ Urban Nest is built using the following technologies:
 
 ## Server Link
 
-The Urban Nest project interacts with a server to fetch apartment data and handle user requests. The server is hosted at [https://key-542r.onrender.com/houses](http://localhost:3000).
+The Urban Nest project interacts with a server to fetch apartment data and handle user requests. The server is hosted at [https://key-542r.onrender.com/houses](https://key-542r.onrender.com/houses).
 
 
 
