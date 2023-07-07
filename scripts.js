@@ -101,51 +101,50 @@ fetch("http://localhost:3000/houses")
       container.style.display = 'block';
     });
 
-//   // Get the container element
-// const container = document.querySelector('.container');
+//adding elements to the container 
+      const container = document.querySelector('.container');
 
-// // Create a div for the input section
-// const inputSection = document.createElement('div');
-// inputSection.className = 'input-section';
+// Creating a div for the input section
+      const inputSection = document.createElement('div');
+      inputSection.className = 'input-section';
 
-// // Create the name input field
-// const nameInput = document.createElement('input');
-// nameInput.type = 'text';
-// nameInput.placeholder = 'Enter Appartment name';
-// inputSection.appendChild(nameInput);
+// Creating the name input field
+      const nameInput = document.createElement('input');
+      nameInput.type = 'text';
+      nameInput.placeholder = 'Enter Appartment name';
+      inputSection.appendChild(nameInput);
 
-// // Create the image URL input field
-// const imageInput = document.createElement('input');
-// imageInput.type = 'text';
-// imageInput.placeholder = 'Enter image URL';
-// inputSection.appendChild(imageInput);
+// Creating the image URL input field  
+      const imageInput = document.createElement('input');
+      imageInput.type = 'text';
+      imageInput.placeholder = 'Enter image URL';
+      inputSection.appendChild(imageInput);
 
-// // Create the cost input field
-// const costInput = document.createElement('input');
-// costInput.type = 'text';
-// costInput.placeholder = 'Enter cost';
-// inputSection.appendChild(costInput);
+// Creating the cost input field
+      const costInput = document.createElement('input');
+      costInput.type = 'text';
+      costInput.placeholder = 'Enter cost';
+      inputSection.appendChild(costInput);
 
-// // Create the location input field
-// const locationInput = document.createElement('input');
-// locationInput.type = 'text';
-// locationInput.placeholder = 'Enter location';
-// inputSection.appendChild(locationInput);
+// Creating the location input field
+      const locationInput = document.createElement('input');
+      locationInput.type = 'text';
+      locationInput.placeholder = 'Enter location';
+      inputSection.appendChild(locationInput);
 
+//creating description input field
 
-// //create description input field
+      const descriptions = document.createElement("input");
+      descriptions.type = "text";
+      descriptions.placeholder ="Descriptions"
+      inputSection.appendChild(descriptions);
 
-// const descriptions = document.createElement("input");
-// descriptions.type = "text";
-// descriptions.placeholder ="Descriptions"
-// inputSection.appendChild(descriptions);
-
-// // Create the submit button
-// const submitButton = document.createElement('button');
-// submitButton.textContent = 'Add';
-// submitButton.addEventListener("mouseover",()=>{
-//   submitButton.style.backgroundColor="white";
-// });
+// Create the submit button
+      const submitButton = document.createElement('button');
+      submitButton.textContent = 'Add';
+      submitButton.addEventListener("mouseover",()=>{
+      submitButton.style.backgroundColor="white"; 
+    }); 
 
 
 
