@@ -223,29 +223,28 @@ fetch("http://localhost:3000/houses")
    descriptionElement.textContent = `Description: ${data.description}`;
    houseInfoElement.appendChild(descriptionElement);
 
-// let button = document.createElement("button");
-// button.textContent = "Read More";
-// button.style.marginLeft = "35%";
-// button.style.cursor = "pointer";
-// houseInfoElement.appendChild(button);
-// button.addEventListener("click", () => {
-// descriptionElement.style.display = "block";
-// });
-// newHouseElement.appendChild(houseInfoElement);
-// houseListings.appendChild(newHouseElement);
-//       })
-//       .catch(error => console.log(error));
+   let button = document.createElement("button");
+   button.textContent = "Read More";
+   button.style.marginLeft = "35%";
+   button.style.cursor = "pointer";
+   houseInfoElement.appendChild(button);
+   button.addEventListener("click", () => {
+   descriptionElement.style.display = "block";
+});
+  newHouseElement.appendChild(houseInfoElement);
+  houseListings.appendChild(newHouseElement);
+ }).catch(error => console.log(error));
 
-//     // Reset the input fields
-//     nameInput.value = '';
-//     imageInput.value = '';
-//     costInput.value = '';
-//     locationInput.value = '';
-//   } else {
-//     alert('Fill all sections');
-//   }
+ // Reset the input fields
+    nameInput.value = '';
+    imageInput.value = '';
+    costInput.value = '';
+    locationInput.value = '';
+  } else {
+    alert('Fill all sections');
+  }
 
-// });
+});
 
 
 
