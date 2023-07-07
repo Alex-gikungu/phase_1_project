@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -17,16 +17,31 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .heading ul {
+    list-style: none;
+   
+  }
+
+   ul li a {
+    color: ghostwhite;
+    text-decoration: none;
+  }
   
   .heading img {
     width: 100px;
-    height: 100px;
+    height: 100px; 
     margin-right: 20px;
+  } 
+
+  #bt button{
+    width: 60px;
+    height: 30px;
   }
   
   .house-listings {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 2fr);
     grid-gap: 20px;
     padding: 20px;
   }
@@ -35,13 +50,17 @@ body {
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     padding: 20px;
+    height:450px;
   }
   
   .house img {
     width: 100%;
-    height: auto;
+    height:180px;
   }
-  
+  .house button{
+    width: 100px;
+    height: 30px;
+  }
   .house-info h2 {
     margin-top: 0;
   }
@@ -78,7 +97,7 @@ body {
   }
   
   button {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 
 .clients{
@@ -113,9 +132,10 @@ margin-right: 70%;
 .foot ul li{
     padding: 10px;
 }
-/* about section */
+
 .about{
     margin-bottom:20%;
+   
 }
 .about h1{
     text-align: center;
@@ -141,7 +161,7 @@ margin-right: 70%;
     margin-left:56%;
     margin-right: 7%;
 }
-/*  contact section */
+
 .contact h1{
     text-align: center;
 }
@@ -175,10 +195,10 @@ margin-right: 70%;
 .contact button{
     margin-top: 5%;
     margin-left: 45%;
-    height:50px;
-    width:200px;
-    border-radius: 30px;
+    height:40px;
+    width:150px;
     font-weight:800;
+    cursor: pointer;
     font-size: medium;
   }
 #facebook{
@@ -223,8 +243,20 @@ margin-right: 70%;
   margin-top: 30px;
   background-color: #f5f5f5;
   text-align:center;
-  margin-bottom:5%;
+  padding: 40px;
+
 }
 #location img{
     float: left;
 }
+.container {
+  display: none;
+}
+.container input{
+  margin-left:30px;
+}
+
+
+
+
+  */

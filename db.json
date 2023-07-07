@@ -1,37 +1,85 @@
 {
-    "houses": [
-      {
-        "id": "1",
-        "name": "Cozy Bungalow",
-        "amount": "$1,200 ",
-        "location": "Kisumu",
-        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "2",
-        "name": "Charming Villa ",
-        "amount": "$1,100 ",
-        "location": "Nairobi",
-        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "3",
-        "name": "Morden apartment",
-        "amount": "$1,800 ",
-        "location": "Thika",
-        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "4",
-        "name": "Cozy Bungalow",
-        "amount": "$1,200 ",
-        "location": "Kisumu",
-        "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-        "images": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      }
-      
-    ]
-  }
+  "houses": [
+    {
+      "id": "1",
+      "name": "Cozy low",
+      "amount": "$1,200 ",
+      "location": "kisumu",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /jiji.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Charming Villa ",
+      "amount": "$1,100 ",
+      "location": "Nairobi",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /001.jpg",
+      "loc": "./images /location.png"
+    },
+    {
+      "id": "3",
+      "name": "Morden apartment",
+      "amount": "$1,800 ",
+      "location": "Thika",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /house1.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Cozy Bunga",
+      "amount": "$1,200 ",
+      "location": "Mombasa",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /00001.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Cozy Bungalow",
+      "amount": "$1,200 ",
+      "location": "Kiambu",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /rent.jpg"
+    },
+    {
+      "id": "6",
+      "name": " Bungalow",
+      "amount": "$1,200 ",
+      "location": "Ruiru",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /4.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Cozy ",
+      "amount": "$1,200 ",
+      "location": "Thika",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /flat.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Cozy ",
+      "amount": "$1,200 ",
+      "location": "Thika",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /4bed.jpeg"
+    },
+    {
+      "name": "Aya luxury",
+      "images": "https://goplacesliving.com/wp-content/uploads/2020/01/5x2.8_AYA-1-1200x680.jpg",
+      "amount": "$80,000",
+      "location": "kileleshwa",
+      "description": "3 bedroom apartment with ample parking space and tight securical",
+      "id": "NVXPt0v"
+    },
+    {
+      "name": "Bungalow ",
+      "images": "./images /house4.jpg",
+      "amount": "20,000",
+      "location": "Ngong ",
+      "description": "master bungalow fully furnisied with ample parking space",
+      "id": "9j6y-Oe"
+    }
+  ]
+}
