@@ -66,6 +66,14 @@
       "images": "./images /4bed.jpeg"
     },
     {
+      "id": "8",
+      "name": "cozy ",
+      "amount": "$1,200 ",
+      "location": "Thika",
+      "Read More": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "images": "./images /4bed.jpeg"
+    },
+    {
       "name": "Aya luxury",
       "images": "https://goplacesliving.com/wp-content/uploads/2020/01/5x2.8_AYA-1-1200x680.jpg",
       "amount": "$80,000",
