@@ -66,34 +66,31 @@ fetch("http://localhost:3000/houses")
      buttons.style.marginTop = "30px";
      buttons.style.cursor = "pointer";
      houseInfo.appendChild(buttons);
-
+//adding eventlistener delete button 
      buttons.addEventListener("click", () => {
   // Display a confirmation alert
      if (confirm("Are you sure you want to delete the details?")) {
      deleteHouseFromServer(houseData.id);
      }  
-  });
+  }); 
+      function deleteHouseFromServer(id) {
+      fetch(`http://localhost:3000/houses/${id}`, {
+        method: "DELETE",
+    })
+      .then(response => response.json())
+      .then(data => {
+  // Handle the server response if needed
+      console.log("House deleted:", data);
 
-// function deleteHouseFromServer(id) {
-//   fetch(`http://localhost:3000/houses/${id}`, {
-//     method: "DELETE",
-//   })
-//     .then(response => response.json())
-//     .then(data => {
-//       // Handle the server response if needed
-//       console.log("House deleted:", data);
+  // Remove the house element from the DOM
+      newHouse.remove();
+     }).catch(error => console.log(error));
+  }
+     newHouse.appendChild(houseInfo);
+     houseListings.appendChild(newHouse);
+   }
 
-//       // Remove the house element from the DOM
-//       newHouse.remove();
-//     })
-//     .catch(error => console.log(error));
-// }
-//  newHouse.appendChild(houseInfo);
-//  houseListings.appendChild(newHouse);
-// }
-
-//   })
-//   .catch(error => console.log(error));
+   }).catch(error => console.log(error));
 
 // // Get the "Add Appartment" button element
 // const addButton = document.querySelector('button');
