@@ -2,7 +2,7 @@ let houseListings = document.querySelector(".house-listings");
 let house = document.querySelector(".house");
 let head = document.querySelector(".heading");
 // Fetch data from the server
-fetch("db.json")
+fetch("http://localhost:3000/houses")
   .then(response => response.json())
   .then(data => {
     for (let i = 0; i < data.length; i++) {
@@ -74,7 +74,7 @@ fetch("db.json")
      }  
   }); 
       function deleteHouseFromServer(id) {
-      fetch(`db.json${id}`, {
+      fetch(`http://localhost:3000/houses/${id}`, {
         method: "DELETE",
     })
       .then(response => response.json())
@@ -180,7 +180,7 @@ fetch("db.json")
        description:descriptionsValue,
     };
 // Send the new house object to the server
-      fetch('db.json', {
+      fetch('http://localhost:3000/houses', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

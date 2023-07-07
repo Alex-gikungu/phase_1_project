@@ -38,7 +38,8 @@ The Urban Nest project interacts with a server to fetch apartment data and handl
 
 ## Desidn link
  
- ![Image Alt Text](  https://www.figma.com/file/PQ4b54Ern57oz1wiUf7NqQ/Untitled?type=design&node-id=1-2&mode=design&t=wcGpoBjw5hx0uuzw-0 "Image Title")
+[Click here to view the Figma design](https://www.figma.com/file/PQ4b54Ern57oz1wiUf7NqQ/Untitled?type=design&node-id=0-1&mode=design&t=xFGgSDOIGPO3s6m2-0)
+
 
 
 
