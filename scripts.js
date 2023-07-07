@@ -139,7 +139,7 @@ fetch("http://localhost:3000/houses")
       descriptions.placeholder ="Descriptions"
       inputSection.appendChild(descriptions);
 
-// Create the submit button
+// Creating the submit button
       const submitButton = document.createElement('button');
       submitButton.textContent = 'Add';
       submitButton.style.width="80px";
@@ -156,12 +156,12 @@ fetch("http://localhost:3000/houses")
 
      inputSection.appendChild(submitButton);
 
-// Append the input section to the container
+// Appending the input section to the container
     container.appendChild(inputSection);
 
-// Event listener for the submit button
+// Adding Event listener for the submit button
     submitButton.addEventListener('click', () => {
-// Get the values from the input fields
+// To get the values from the input fields
     const nameValue = nameInput.value;
     const imageValue = imageInput.value;
     const costValue = costInput.value;
@@ -179,49 +179,49 @@ fetch("http://localhost:3000/houses")
        location: locationValue,
        description:descriptionsValue,
     };
-//     // Send the new house object to the server
-//     fetch('http://localhost:3000/houses', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify(newHouse),
-//     })
-//       .then(response => response.json())
-//       .then(data => {
+// Send the new house object to the server
+      fetch('http://localhost:3000/houses', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+    },
+      body: JSON.stringify(newHouse),
+    })
+      .then(response => response.json())
+      .then(data => {
 
 
         
-//         // Display the new house in the browser
-//         const newHouseElement = document.createElement('div');
-// newHouseElement.className = 'house';
+  // Displaying the new house in the browser
+    const newHouseElement = document.createElement('div');
+    newHouseElement.className = 'house';
+  
+   const imageElement = document.createElement('img');
+   imageElement.src = data.images;
+   imageElement.alt = 'House Image';
+   newHouseElement.appendChild(imageElement);
 
-// const imageElement = document.createElement('img');
-// imageElement.src = data.images;
-// imageElement.alt = 'House Image';
-// newHouseElement.appendChild(imageElement);
+   const houseInfoElement = document.createElement('div'); 
+   houseInfoElement.className = 'house-info';
 
-// const houseInfoElement = document.createElement('div');
-// houseInfoElement.className = 'house-info';
+   const headingElement = document.createElement('h2');
+   headingElement.textContent = data.name;
+   houseInfoElement.appendChild(headingElement);
 
-// const headingElement = document.createElement('h2');
-// headingElement.textContent = data.name;
-// houseInfoElement.appendChild(headingElement);
+   const priceElement = document.createElement('p');
+   priceElement.className = 'price';
+   priceElement.textContent = `Price: ${data.amount}`;
+   houseInfoElement.appendChild(priceElement);
 
-// const priceElement = document.createElement('p');
-// priceElement.className = 'price';
-// priceElement.textContent = `Price: ${data.amount}`;
-// houseInfoElement.appendChild(priceElement);
+   const locationElement = document.createElement('p');
+   locationElement.className = 'location';
+   locationElement.textContent = `Location: ${data.location}`;
+   houseInfoElement.appendChild(locationElement);
 
-// const locationElement = document.createElement('p');
-// locationElement.className = 'location';
-// locationElement.textContent = `Location: ${data.location}`;
-// houseInfoElement.appendChild(locationElement);
-
-// const descriptionElement = document.createElement('p');
-// descriptionElement.className = 'description';
-// descriptionElement.textContent = `Description: ${data.description}`;
-// houseInfoElement.appendChild(descriptionElement);
+   const descriptionElement = document.createElement('p');
+   descriptionElement.className = 'description';
+   descriptionElement.textContent = `Description: ${data.description}`;
+   houseInfoElement.appendChild(descriptionElement);
 
 // let button = document.createElement("button");
 // button.textContent = "Read More";
