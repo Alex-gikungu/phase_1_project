@@ -142,20 +142,19 @@ fetch("http://localhost:3000/houses")
 // Create the submit button
       const submitButton = document.createElement('button');
       submitButton.textContent = 'Add';
+      submitButton.style.width="80px";
+      submitButton.style.height="30px";
+      submitButton.style.cursor = "pointer";
+  //adding eventlistener to the submitbutton 
       submitButton.addEventListener("mouseover",()=>{
       submitButton.style.backgroundColor="white"; 
     }); 
 
+      submitButton.addEventListener("mouseout",()=>{
+      submitButton.style.backgroundColor=""; 
+   });
 
 
-// submitButton.addEventListener("mouseout",()=>{
-//   submitButton.style.backgroundColor="";
-// });
-
-
-// submitButton.style.width="80px";
-// submitButton.style.height="30px";
-// submitButton.style.cursor = "pointer";
 
 
 // inputSection.appendChild(submitButton);
