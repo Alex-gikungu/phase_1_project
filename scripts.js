@@ -154,36 +154,31 @@ fetch("http://localhost:3000/houses")
       submitButton.style.backgroundColor=""; 
    });
 
+     inputSection.appendChild(submitButton);
 
+// Append the input section to the container
+    container.appendChild(inputSection);
 
-
-// inputSection.appendChild(submitButton);
-
-
-
-// // Append the input section to the container
-// container.appendChild(inputSection);
-
-// // Event listener for the submit button
-// submitButton.addEventListener('click', () => {
-//   // Get the values from the input fields
-//   const nameValue = nameInput.value;
-//   const imageValue = imageInput.value;
-//   const costValue = costInput.value;
-//   const locationValue = locationInput.value;
-//   const descriptionsValue  = descriptions.value;
+// Event listener for the submit button
+    submitButton.addEventListener('click', () => {
+// Get the values from the input fields
+    const nameValue = nameInput.value;
+    const imageValue = imageInput.value;
+    const costValue = costInput.value;
+    const locationValue = locationInput.value;
+    const descriptionsValue  = descriptions.value;
 
   
-//   // Check if all input fields are filled
-//   if (nameValue.trim() !== '' && imageValue.trim() !== '' && costValue.trim() !== '' && locationValue.trim() !== '' && descriptionsValue.trim() !== '') {
-//     // Create a new house object with the input values
-//     const newHouse = {
-//       name: nameValue,
-//       images: imageValue,
-//       amount: costValue,
-//       location: locationValue,
-//       description:descriptionsValue,
-//     };
+ // Check if all input fields are filled
+    if (nameValue.trim() !== '' && imageValue.trim() !== '' && costValue.trim() !== '' && locationValue.trim() !== '' && descriptionsValue.trim() !== '') {
+// Create a new house object with the input values
+     const newHouse = {
+       name: nameValue,
+       images: imageValue,
+       amount: costValue,
+       location: locationValue,
+       description:descriptionsValue,
+    };
 //     // Send the new house object to the server
 //     fetch('http://localhost:3000/houses', {
 //       method: 'POST',
