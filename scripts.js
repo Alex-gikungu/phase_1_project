@@ -7,15 +7,15 @@ fetch("http://localhost:3000/houses")
   .then(data => {
     for (let i = 0; i < data.length; i++) {
       let houseData = data[i];
-      
-//       let newHouse = document.createElement("div");
-//       newHouse.className = "house";
-//       newHouse.addEventListener("mouseover", ()=>{
-//         newHouse.style.background="lightgray";
-//       })
-//       newHouse.addEventListener("mouseout", ()=>{
-//         newHouse.style.background="#f5f5f5";
-//       })
+      //adding mouserover to the house div 
+      let newHouse = document.createElement("div");
+      newHouse.className = "house";
+      newHouse.addEventListener("mouseover", ()=>{
+        newHouse.style.background="lightgray";
+      })
+      newHouse.addEventListener("mouseout", ()=>{
+        newHouse.style.background="#f5f5f5";
+      })
 
 
 //       let image = document.createElement("img");
