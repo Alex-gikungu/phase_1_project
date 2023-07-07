@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -132,7 +132,7 @@ margin-right: 70%;
 .foot ul li{
     padding: 10px;
 }
-
+/* about section */
 .about{
     margin-bottom:20%;
    
@@ -161,6 +161,7 @@ margin-right: 70%;
     margin-left:56%;
     margin-right: 7%;
 }
+/*  contact section */
 
 .contact h1{
     text-align: center;
@@ -259,4 +260,19 @@ margin-right: 70%;
 
 
 
-  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
