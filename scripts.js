@@ -17,43 +17,39 @@ fetch("http://localhost:3000/houses")
         newHouse.style.background="#f5f5f5";
       })
 
+      //creating variables using dom
+      let image = document.createElement("img");
+      image.src = houseData.images;
+      image.alt = "House Image";
+      newHouse.appendChild(image);
 
-//       let image = document.createElement("img");
-//       image.src = houseData.images;
-//       image.alt = "House Image";
-//       newHouse.appendChild(image);
+      let houseInfo = document.createElement("div");
+      houseInfo.className = "house-info";
 
-//       let houseInfo = document.createElement("div");
-//       houseInfo.className = "house-info";
+      let heading = document.createElement("h2");
+      heading.textContent = houseData.name;
+      houseInfo.appendChild(heading);
 
-//       let heading = document.createElement("h2");
-//       heading.textContent = houseData.name;
-//       houseInfo.appendChild(heading);
+      let price = document.createElement("p");
+      price.className = "price";
+      price.textContent = `price:${houseData.amount}`;
+      price.style.textAlign="center";
+      //appending price to houseinfo
+      houseInfo.appendChild(price);
 
-//       let price = document.createElement("p");
-//       price.className = "price";
-//       price.textContent = `price:${houseData.amount}`;
-//       price.style.textAlign="center";
+      let location = document.createElement("p");
+      location.className = "location";
+      location.textContent = `location:${houseData.location}`;
+      location.style.textAlign="center";
+      //appenging location to house info 
+      houseInfo.appendChild(location);
 
-
-//       houseInfo.appendChild(price);
-
-//       let location = document.createElement("p");
-//       location.className = "location";
-//       location.textContent = `location:${houseData.location}`;
-
-//       // `Run Time: ${film.runtime} minutes`;
-//       location.style.textAlign="center";
-
-
-//       houseInfo.appendChild(location);
-
-//       let description = document.createElement("p");
-//       description.className = "description";
-//       description.textContent = houseData["Read More"];
-
-//       description.style.display="none";
-//       houseInfo.appendChild(description);
+      let description = document.createElement("p");
+      description.className = "description";
+      description.textContent = houseData["Read More"];
+      description.style.display="none";
+      //appending description to house info
+      houseInfo.appendChild(description);
       
 //       let button = document.createElement("button");
 // button.textContent = "Read More";
