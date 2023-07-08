@@ -1,274 +1,362 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: ghostwhite;
-  }
-  
-  .heading {
-    display: flex;
-    align-items: center;
-  }
-
-  .heading ul {
-    list-style: none;
-   
-  }
-
-   ul li a {
-    color: ghostwhite;
-    text-decoration: none;
-  }
-  
-  .heading img {
-    width: 100px;
-    height: 100px; 
-    margin-right: 20px;
-  } 
-
-  #bt button{
-    width: 60px;
-    height: 30px;
-  }
-  
-  .house-listings {
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  
-  .house {
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    padding: 20px;
-    height:450px;
-  }
-  
-  .house img {
-    width: 100%;
-    height:180px;
-  }
-  .house button{
-    width: 100px;
-    height: 30px;
-  }
-  .house-info h2 {
-    margin-top: 0;
-  }
-  
-  .price {
-    font-weight: bold;
-  }
-  
-  .location {
-    margin-top: 10px;
-  }
-  
-  .description {
-    margin-top: 10px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .heading ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-left:150px;
-  }
-  
-  .heading ul li {
-    margin-right: 100px;
-  }
-  
-  button {
-    margin-left: 70px;
-  }
-
-.clients{
-    display: flex;
-    margin-top: 70px;
-    background-color: #f5f5f5;
-
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.client2, .client1 ,.client3{
-    margin-left:10%;
+header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: ghostwhite;
 }
 
-h2{
-    text-align: center;
-    margin-top: 50px;
+.heading {
+  display: flex;
+  align-items: center;
 }
-.client1 img, .client2 img ,.client3 img{
-    width: 50px;
-    height: auto;
-    margin-bottom: 10px;
-    margin-left: 70px;
-  }
 
-.foot{
-margin-right: 70%;
+.heading ul {
+  list-style: none;
 }
-.foot ul{
-    list-style: none;
-    position: top;
+
+ul li a {
+  color: ghostwhite;
+  text-decoration: none;
 }
-.foot ul li{
-    padding: 10px;
+
+.heading img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
+
+#bt button {
+  width: 60px;
+  height: 30px;
+}
+
+.house-listings {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.house {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 450px;
+}
+
+.house img {
+  width: 100%;
+  height: 180px;
+}
+
+.house button {
+  width: 100px;
+  height: 30px;
+}
+
+.house-info h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.location {
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 150px;
+}
+
+.heading ul li {
+  margin-right: 100px;
+}
+
+button {
+  margin-left: 70px;
+}
+
+.clients {
+  display: flex;
+  margin-top: 70px;
+  background-color: #f5f5f5;
+}
+
+.client2,
+.client1,
+.client3 {
+  margin-left: 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.client1 img,
+.client2 img,
+.client3 img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 70px;
+}
+
+.foot {
+  margin-right: 70%;
+}
+
+.foot ul {
+  list-style: none;
+  position: top;
+}
+
+.foot ul li {
+  padding: 10px;
+}
+
 /* about section */
-.about{
-    margin-bottom:20%;
-   
-}
-.about h1{
-    text-align: center;
-}
-.about p{
-    font-size: large;
-    margin-left:60px;
-}
-.about img{
-    clear:left;
-    float:left ;
-    height:500px;
-    margin-right: 30px;
-}
- 
-#mission{
-    height:300px;
-    background-color: #f5f5f5;
-    margin-right:7%;
-}
-#vision{
-    background-color: #f5f5f5;
-    margin-left:56%;
-    margin-right: 7%;
-}
-/*  contact section */
-
-.contact h1{
-    text-align: center;
-}
-#inputss input{
-    background-color: #f5f5f5;
+.about {
+  margin-bottom: 20%;
 }
 
-#inputss, input{
-    margin-left:0%;
-    text-align: center;
-    text-align: center;
-    height:30px;
-    margin: 10px;
-}
-#inputs input{
-    margin-top: 50px;
-    margin-left:35%;
-    text-align: center;
-    height:150px;
-    width:550px;
-    background-color: #f5f5f5;
+.about h1 {
+  text-align: center;
 }
 
-#inputs{
-    margin-right: 10%;
-  
+.about p {
+  font-size: large;
+  margin-left: 60px;
 }
 
-.contact button{
-    margin-top: 5%;
-    margin-left: 45%;
-    height:40px;
-    width:150px;
-    font-weight:800;
-    cursor: pointer;
-    font-size: medium;
-  }
-#facebook{
-    margin-left: 50%;
-    margin-bottom:20px;
+.about img {
+  clear: left;
+  float: left;
+  height: 500px;
+  margin-right: 30px;
 }
-#facebook p{
+
+#mission {
+  height: 300px;
+  background-color: #f5f5f5;
+  margin-right: 7%;
+}
+
+#vision {
+  background-color: #f5f5f5;
+  margin-left: 56%;
+  margin-right: 7%;
+}
+
+/* contact section */
+
+.contact h1 {
+  text-align: center;
+}
+
+#inputss input {
+  background-color: #f5f5f5;
+}
+
+#inputss,
+input {
+  margin-left: 0%;
+  text-align: center;
+  text-align: center;
+  height: 30px;
+  margin: 10px;
+}
+
+#inputs input {
+  margin-top: 50px;
+  margin-left: 35%;
+  text-align: center;
+  height: 150px;
+  width: 550px;
+  background-color: #f5f5f5;
+}
+
+#inputs {
+  margin-right: 10%;
+}
+
+.contact button {
+  margin-top: 5%;
+  margin-left: 45%;
+  height: 40px;
+  width: 150px;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#facebook {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+#facebook p {
   font-weight: 600;
   margin-left: 3%;
-    
 }
-#facebook img{
-    width:100px;
+
+#facebook img {
+  width: 100px;
 }
-#whatsapp{
-    margin-left: 50%;
+
+#whatsapp {
+  margin-left: 50%;
 }
-#whatsapp p{
-    font-weight: 600;
-    margin-left: 3%;
-      
-  }
-#whatsapp img{
-    width:100px;
+
+#whatsapp p {
+  font-weight: 600;
+  margin-left: 3%;
 }
-#twitter{
-    margin-left: 50%;
-    margin-bottom: 10%;
+
+#whatsapp img {
+  width: 100px;
 }
-#twitter p{
-    font-weight: 600;
-    margin-left: 3%;
-      
-  }
-#twitter img{
-    width:100px;
+
+#twitter {
+  margin-left: 50%;
+  margin-bottom: 10%;
 }
-.social{
-    background-color:#f5f5f5;
+
+#twitter p {
+  font-weight: 600;
+  margin-left: 3%;
 }
-#location{
+
+#twitter img {
+  width: 100px;
+}
+
+.social {
+  background-color: #f5f5f5;
+}
+
+#location {
   margin-top: 30px;
   background-color: #f5f5f5;
-  text-align:center;
+  text-align: center;
   padding: 40px;
+}
 
+#location img {
+  float: left;
 }
-#location img{
-    float: left;
-}
+
 .container {
   display: none;
 }
-.container input{
-  margin-left:30px;
+
+.container input {
+  margin-left: 30px;
 }
 
+/* Media Queries */
+@media (max-width: 767px) {
+  /* Tablets and below */
+  .house-listings {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
 
+  .house {
+    height: auto;
+    padding: 10px;
+  }
 
+  .house img {
+    height: auto;
+  }
 
+  .about img {
+    height: auto;
+    margin: 0;
+    float: none;
+  }
 
+  #mission,
+  #vision {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  #inputs {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 
+  #inputs input {
+    width: 100%;
+  }
+}
 
+@media (max-width: 576px) {
+  /* Phones */
+  .house-listings {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
 
+  .house {
+    padding: 10px;
+    height: auto;
+  }
 
+  .house img {
+    height: auto;
+  }
 
+  .about img {
+    height: auto;
+    margin: 0;
+    float: none;
+  }
 
+  #mission,
+  #vision {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  #inputs {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 
-
+  #inputs input {
+    width: 100%;
+  }
+}
 
 
 
