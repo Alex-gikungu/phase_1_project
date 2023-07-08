@@ -280,16 +280,55 @@ input {
 }
 
 /* Media Queries */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   /* Tablets and below */
   .house-listings {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
   }
 
   .house {
     height: auto;
     padding: 10px;
+  }
+
+  .house img {
+    height: auto;
+  }
+
+  .about img {
+    height: auto;
+    margin: 0;
+    float: none;
+  }
+
+  #mission,
+  #vision {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #inputs {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  #inputs input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Phones */
+  .house-listings {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+
+  .house {
+    padding: 10px;
+    height: auto;
   }
 
   .house img {
@@ -320,7 +359,7 @@ input {
 }
 
 @media (max-width: 576px) {
-  /* Phones */
+  /* Smaller Phones */
   .house-listings {
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
@@ -342,23 +381,17 @@ input {
   }
 
   #mission,
-  #vision {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  #inputs {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-
-  #inputs input {
-    width: 100%;
-  }
+  #vision{
+  margin-left: 0;
+  margin-right: 0;
 }
 
+#inputs {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
 
-
-
- 
+#inputs input {
+  width: 100%;
+}
