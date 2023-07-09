@@ -63,6 +63,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 For any questions or inquiries, please contact the project maintainers:
 
-- Alex Gikungu: alexigikungu.012@example.com
+- Alex Gikungu: alexigikungu.012@gmail.com
 - Phone:0112043557.
 
